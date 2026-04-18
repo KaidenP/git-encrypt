@@ -1,10 +1,11 @@
 {
-  "name": "git-encrypt",
+  "name": "@kaidenp/git-encrypt",
   "version": "0.1.0",
   "description": "Transparent Git encryption using age-encryption and git hooks",
+  "license": "MIT",
   "type": "module",
   "bin": {
-    "git-encrypt": "./dist/git-encrypt"
+    "git-encrypt": "dist/git-encrypt"
   },
   "scripts": {
     "build": "node scripts/build.js",
